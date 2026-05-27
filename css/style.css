@@ -1,0 +1,15 @@
+.flex-container{
+    width: 100vw;
+    height: 5vh;
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.items{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
