@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#150a0a;
+    }
+
+    .card{
+      width:325px;
+      background:white;
+      padding:25px;
+      border-radius:10px;
+      text-align:center;
+      box-shadow:0 4px 10px rgba(68, 54, 54, 0.1);
+    }
+
+    .profile img{
+      width:100px;
+      height:100px;
+      border-radius:50%;
+      border:5px solid #dbb8b8;
+      object-fit:cover;
+    }
+
+    h2{
+      margin-top:15px;
+      color:#dd1111;
+    }
+
+    p{
+      color:rgb(138, 137, 137);
+      margin-top:5px;
+    }
+
+    .social-icons{
+      margin:20px 0;
+    }
+
+    .social-icons a{
+    width:40px;
+    height:40px;
+    background:#fabbbb;
+    border-radius:50%;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    margin:0 8px;
+    
+    font-size:18px;
+    transition:0.3s;
+}
+
+    .buttons{
+      display:flex;
+      justify-content:space-between;
+      margin-top:20px;
+    }
+
+    .buttons button{
+      width:48%;
+      padding:10px;
+      border:none;
+      border-radius:8px;
+      background:#b3cbd1;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .buttons button:hover{
+      background:#7c28d6;
+    }
+
+    .stats{
+      display:flex;
+      justify-content:space-around;
+      margin-top:25px;
+      color:#e50e27;
+      font-size:15px;
+    }
+  </style>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="profile">
+      <img src="https://wallpapers.com/images/hd/cool-profile-picture-87h46gcobjl5e4xu.jpg" alt="profile">
+    </div>
+
+    <h2>Modh Krishn</h2>
+    <p>Designer & Developer</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <div class="buttons">
+      <button>Message</button>
+      <button>Subscribe</button>
+    </div>
+
+    <div class="stats">
+      <div><i class="fa-regular fa-heart"></i> 20.4k</div>
+      <div><i class="fa-regular fa-comment"></i> 14.3k</div>
+      <div><i class="fa-solid fa-share"></i> 12.8k</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
