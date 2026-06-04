@@ -1,0 +1,204 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 100px;
+}
+
+
+.grid-container {
+  width: 1000px;
+  height: 600px;
+  padding: 10px;
+  background: #030411;
+
+  display: grid;
+  gap: 10px;
+
+  grid-template-columns: 100px 100 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.grid-items {
+  border: 2px solid #222;
+  justify-content: center;
+  
+}
+
+/* Left Tall Box */
+#grid-item-1 {
+  background: #8bc34a;
+  grid-row: 1 / 4;
+  grid-column: 1;
+}
+
+/* Top Center Long Box */
+#grid-item-2 {
+  background: #8bc34a;
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+/* Top Right */
+#grid-item-3 {
+  background: #e74c3c;
+  grid-column: 4;
+  grid-row: 1;
+}
+
+/* Middle Left */
+#grid-item-4 {
+  background: #f4c04f;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Middle Right */
+#grid-item-5 {
+  background: #e74c3c;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+/* Bottom Left */
+#grid-item-6 {
+  background: #e74c3c;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/* Bottom Right */
+#grid-item-7 {
+  background: #f4c04f;
+  grid-column: 3;
+  grid-row: 3;
+}
+
+/* Right Tall Box */
+#grid-item-8 {
+  background: #8bc34a;
+  grid-column: 4;
+  grid-row: 2 / 4;
+}
+
+/* #text{ */
+    /* background-color: #f0eff6; */
+    /* text-align: center; */
+/* } */
+
+.h1{
+    color: #f0eff6;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid-container { */
+  /* Container Height and width */
+  /* height: 600px;
+  width: 50%;
+  border: 1px solid red;
+  background-color: rgb(242, 242, 47);
+  display: grid; */
+
+  /* grid-template-columns: 100px 100px; */
+  /* Cell Width */
+  /* grid-template-columns: repeat(2, 100px); */
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  /* grid-template-columns: repeat(4,50px) */
+
+  /* Cell Height */
+  /* grid-template-rows: 100px 100px 100px 100px; */
+  /* grid-template-rows: repeat(4, 100px); */
+  /* grid-template-rows: repeat(3, 100px); */
+
+  /*Cell->  Items Level Properties */
+  /* justify-items: center; */
+  /* align-items: center; */
+
+  /* Container- > cells Align */
+  /* justify-content: center; */
+  /* align-content: center; */
+
+  /* width: 500px;
+
+  padding: 2rem;
+  gap: 10px; */
+  /* Gaps */
+  /* row-gap: 10px;
+  column-gap: 30px; */
+/*   
+}
+.grid-items {
+    background-color: blue; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* flex */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 24px; */
+    /* align-items: center; */
+    /* flex:  100%;
+    color: white; */
+    /* gap: 10px; */
+    /* grid-column: span; */
+    /* border-style: dotted;
+    margin: 1rem;
+}
+
+#grid-item-1{
+    width: 100;
+    height: 330px; */
+
+/* }
+#grid-item-2{
+    width: 200px;
+    height: 330px; */
+
+/* }
+#grid-item-4{
+grid-column:2;
+grid-row: 2;
+}
+
+#grid-item-5{
+grid-column: 3;
+grid-row: 2;
+}
+#grid-item-6{
+grid-column: 2;
+grid-row: 3;
+}
+#grid-item-7{
+grid-column: 3;
+grid-row: 3;
+}
+#grid-item-8{
+grid-column: 4;
+height: 220px;
+grid-row: 2;
+}
+\\
+ */ 
