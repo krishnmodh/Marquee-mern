@@ -5,3 +5,4 @@ let values = marks.map(function (el, index) {
 });
 
 console.log(values);
+KK
